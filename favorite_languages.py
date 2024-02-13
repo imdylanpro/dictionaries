@@ -14,7 +14,7 @@ favorite_languages = {
 }
 
 # adds a list that contains a list of friends, so they get a custom message.
-friends =['dylan', 'briana', 'lane']
+friends =['dylan', 'briana', 'lane', 'james']
 
 # # the values can be simple n and l for looping
 # for n, l in favorite_languages.items():
