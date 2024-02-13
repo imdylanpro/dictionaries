@@ -10,7 +10,7 @@ favorite_languages = {
     'mark': 'c',
     'sally': 'Assembly',
     'lane': 'Assembly',
-    'briana': 'c'
+    'briana': 'haskell'
 }
 
 # adds a list that contains a list of friends, so they get a custom message.
