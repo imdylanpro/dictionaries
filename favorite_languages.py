@@ -9,11 +9,18 @@ favorite_languages = {
     'dylan': 'Python',
     'mark': 'c',
     'sally': 'Assembly',
+    'lane': 'Assembly',
+    'briana': 'c'
 }
+
+# adds a list that contains a list of friends, so they get a custom message.
+friends =['dylan', 'briana', 'lane']
 
 # the values can be simple n and l for looping
 for n, l in favorite_languages.items():
     print(f"{n.title()}'s favorite language is {l.title()}.")
+    if n in friends:
+        print(f"Hello {n.title()}! Nice to see you :D")
 
 # Using only the first item in the key-value pair
 for n, l in favorite_languages.items():
