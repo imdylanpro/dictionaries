@@ -43,7 +43,7 @@ for name, languages in favorite_languages.items():
     if name in friends:
         print("Good to see you again!")
     if len(languages) == 1:
-        print(f"Your favorite programming language is: {language}")
+        print(f"Your favorite programming language is: {language.title()}")
     else:
         print("Your favorite programming languages are:")
         for language in languages:
